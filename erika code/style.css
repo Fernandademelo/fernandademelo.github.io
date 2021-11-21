@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Offside&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+    font-family: "Lobster";
+   
+}
+
+body{
+    align-content: center;
+}
+
+h1 {
+    width: 30px;
+    text-shadow: salmon;
+    margin: none;
+    text-align: center;
+    border: none;
+    color: rgb(154, 114, 192);
+    
+}
+
+.h2 {
+    margin: none;
+    text-align: justify;
+    border: none;
+    color: #d63384
+    
+}
+
+h2-show{
+    margin: none;
+    text-align: justify;
+    border: none;
+    color: red;
+    
+}
+
+.myimage {
+    display: none;
+}
+/* Also you need another class to show your image */
+
+.myimage-show {
+    display: block;
+}
+
+.myimage2 {
+    display:none;
+   width:80%
+}
+.myimage2-show {
+    display: block;
+    width: 70%;
+}
